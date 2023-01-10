@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.s{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px white solid;
+
+}
+.one p{
+    font-size: 5em;
+    color: black;
+}
+.progress{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    margin: 10px;
+}
+.progress span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color:blue;
+    transition: width 2s linear;
+}
